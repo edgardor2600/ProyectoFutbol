@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Academia De Fútbol</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <style>
+        body {
+            background-color: #e9ecef;
+            background-image: url('path/to/your/football-background.jpg');
+            background-size: cover;
+            background-position: center;
+            font-family: 'Arial', sans-serif;
+        }
+        h1, h2 {
+            text-align: center;
+            margin-top: 50px;
+            color: #333;
+            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+        }
+        .navbar-brand {
+            display: flex;
+            align-items: center;
+            font-weight: bold;
+        }
+        .btn-primary {
+            background-color: #4caf50;
+            border: none;
+            border-radius: 30px;
+            color: #fff;
+            font-size: 1.25rem;
+            padding: .75rem 1.5rem;
+            box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+            transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .btn-primary:hover {
+            background-color: #45a049;
+            transform: translateY(-3px);
+            box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.3);
+        }
+        .container {
+            margin-top: 30px;
+            position: relative;
+            z-index: 1;
+        }
+        footer {
+            background-color: #343a40;
+            padding: 10px 0;
+        }
+        footer p {
+            margin-bottom: 0;
+            color: #fff;
+            font-size: 1rem;
+            text-align: center;
+            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark p-4">
+        <div class="container d-flex justify-content-center align-items-center">
+            <a class="navbar-brand">
+                <span class="fs-3 text-white">Academia De Fútbol</span>
+            </a>
+        </div>
+    </nav>
+    <div class="container p-4">
+        <center>
+            <h2 class="section__title">Academia De Fútbol</h2>
+        </center><br><br>
+        <div class="d-flex flex-wrap justify-content-center">
+            <div class="p-3">
+                <a href="/verClub" class="btn btn-primary btn-lg">Ver Club</a>
+            </div>
+            <div class="p-3">
+                <a href="/verAsociacion" class="btn btn-primary btn-lg">Ver Asociación</a>
+            </div>
+            <div class="p-3">
+                <a href="/verCompeticion" class="btn btn-primary btn-lg">Ver Competición</a>
+            </div>
+            <div class="p-3">
+                <a href="/verEntrenador" class="btn btn-primary btn-lg">Ver Entrenador</a>
+            </div>
+            <div class="p-3">
+                <a href="/verJugador" class="btn btn-primary btn-lg">Ver Jugador</a>
+            </div>
+        </div>
+    </div>
+    <footer class="footer bg-dark text-white fixed-bottom">
+        <div class="container">
+            <p class="text-center mb-0 py-2">Edgardo Rodriguez Quiroga</p>
+        </div>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js"></script>
+</body>
+</html>
